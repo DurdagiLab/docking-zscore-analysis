@@ -6,7 +6,7 @@ The **Docking Score Z-Score Analysis Tool** processes docking results (in CSV fo
 
 - Robust handling of numerical input, including support for locale-specific decimal formats (e.g., comma as decimal separator).
 - Calculation of Z-scores for each ligand, based on the mean and standard deviation of the complete docking score distribution.
-- Selection of statistically significant compounds, defined by a user-adjustable Z-score threshold (default: Z ≤ -1.96).
+- Selection of statistically significant compounds, defined by a user-adjustable Z-score threshold (default: Z ≤ -1.960).
 - Automated generation of result files, including:
   - A CSV file containing filtered compounds and their corresponding Z-scores;
   - A structured PDF summary table for reporting or publication;
@@ -48,7 +48,7 @@ Place the input CSV file (default name: FILE_NAME.csv) in the same directory as 
 
 **All generated artefacts - including the filtered CSV file, summary PDF report, and high-resolution PNG figures - will be automatically saved to the current working directory.
 
-Note: The script uses a default Z-score threshold of -1.96 to select statistically significant compounds. You may edit the script to adjust this threshold as needed.
+Note: The script uses a default Z-score threshold of -1.960 to select statistically significant compounds. You may edit the script to adjust this threshold as needed.
 
 # Citation
 If you use this tool in your academic work, please cite:
