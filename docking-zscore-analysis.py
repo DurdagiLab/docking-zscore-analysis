@@ -68,7 +68,7 @@ def main():
 
     molecule_name_column = 'Title'  # Name of the column containing molecule names
     docking_score_column = 'docking score'  # Name of the column containing docking score values
-    z_score_threshold_lower = -1.96  # Z score threshold value (lower bound)
+    z_score_threshold_lower = -1.960  # Z score threshold value (lower bound)
 
     # Open and read the CSV file
     with open(file_path, newline='') as csvfile:
@@ -103,7 +103,7 @@ def main():
     pdf.set_font("Arial", style='B', size=12)
 
     # Write selected molecules' information to PDF
-    pdf.cell(200, 10, txt="Compounds with Z-Score <= -1", ln=True, align="C")
+    pdf.cell(200, 10, txt="Compounds with Z-Score <= -1.960", ln=True, align="C")
     pdf.ln(10)  # New line
 
     # Add total number of selected compounds information
