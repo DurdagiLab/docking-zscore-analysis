@@ -4,7 +4,6 @@ A Python-based tool for statistical post-processing of molecular docking results
 # Description
 The **Docking Score Z-Score Analysis Tool** processes docking results (in CSV format), calculates the Z-score of each compound’s binding affinity, and identifies statistically significant hits. The workflow includes:
 
-- Robust handling of numerical input, including support for locale-specific decimal formats (e.g., comma as decimal separator).
 - Calculation of Z-scores for each ligand, based on the mean and standard deviation of the complete docking score distribution.
 - Selection of statistically significant compounds, defined by a user-adjustable Z-score threshold (default: Z ≤ -1.960).
 - Automated generation of result files, including:
