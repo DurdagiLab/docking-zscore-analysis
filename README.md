@@ -14,7 +14,7 @@ The **Docking Score Z-Score Analysis Tool** processes docking results (in CSV fo
   - A docking score distribution plot with annotation of the final compound’s binding score.
 
 # Suggested Z-score Thresholds
-The script supports statistical filtering based on two-tailed Z-score significance levels. Depending on the desired confidence level, the corresponding absolute Z-score threshold (Z) can be selected as follows:
+The script supports statistical filtering based on two-tailed Z-score significance levels. Depending on the desired confidence interval (CI), the corresponding absolute Z-score threshold (Z) can be selected as follows:
 
 - For 50% confidence, use a threshold of Z ≤ -0.674
 - For 75% confidence, use Z ≤ -1.150
