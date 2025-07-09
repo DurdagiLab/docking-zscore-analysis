@@ -1,4 +1,4 @@
-# docking-zscore-analysis
+# Z-Score Analysis Tool for Docking Results
 A Python-based tool for statistical post-processing of molecular docking results in virtual screening (VS) studies. This script computes Z-scores for binding energies and filters ligands based on user-defined significance thresholds. It also produces a summary PDF table and high-resolution visualizations suitable for publication or internal reporting.
 
 # Description
@@ -51,6 +51,6 @@ Place the input CSV file (default name: FILE_NAME.csv) in the same directory as 
 Note: The script uses a default Z-score threshold of -1.960 to select statistically significant compounds. You may edit the script to adjust this threshold as needed.
 
 # Citation
-If you use this tool in your academic work, please cite:
+If you use this tool in your research or publication, please cite it as follows:
 
-Computational Drug Design Center (HITMER), Faculty of Pharmacy, Bahçeşehir University, Istanbul, Turkey
+Isaoğlu, M., & Durdağı, S. (2025). Z-Score Analysis Tool for Docking Results (Version 1.0) [Computer software]. https://github.com/DurdagiLab/docking-zscore-analysis
