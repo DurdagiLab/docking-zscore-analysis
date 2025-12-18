@@ -52,4 +52,4 @@ Note: The script uses a default Z-score threshold of -1.960 to select statistica
 # Citation
 If you use this tool in your research or publication, please cite it as follows:
 
-Isaoğlu, M., & Durdağı, S. (2025). Z-Score Analysis Tool for Docking Results (Version 1.0) [Computer software]. https://github.com/DurdagiLab/docking-zscore-analysis
+Isaoğlu, M., & Durdağı, S. (2025). Z-Score Analysis Tool for Docking Results (Version 1.0) [Source Code]. https://github.com/DurdagiLab/docking-zscore-analysis
